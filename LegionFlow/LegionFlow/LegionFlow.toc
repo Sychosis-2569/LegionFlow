@@ -1,0 +1,41 @@
+## Interface: 70300
+## Title: LegionFlow
+## Notes: A modular combat framework for World of Warcraft Legion 7.3.5
+## Author: Gerrit Coetzee & OpenAI
+## Version: 0.1.0-alpha
+## SavedVariables: LegionFlowDB
+## X-Website: https://github.com/Sychosis-2569/LegionFlow
+## X-Category: Combat
+## X-License: MIT
+## X-Compatible-With: Legion 7.3.5 (70300)
+
+# --------------------------------------------------------------------
+# Core
+# --------------------------------------------------------------------
+
+Core.lua
+Constants.lua
+Utils.lua
+SlashCommands.lua
+Events.lua
+
+# --------------------------------------------------------------------
+# Database
+# --------------------------------------------------------------------
+
+Database\Spells.lua
+Database\Classes.lua
+Database\Races.lua
+Database\Colors.lua
+
+# --------------------------------------------------------------------
+# UI Framework
+# --------------------------------------------------------------------
+
+UI\Widget.lua
+
+# --------------------------------------------------------------------
+# Modules
+# --------------------------------------------------------------------
+
+Modules\ModuleLoader.lua
